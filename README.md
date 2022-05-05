@@ -38,6 +38,20 @@ my plan is copy the teacher's work [shynome-rw-hn](https://github.com/shynome-ne
 2. compare the modify about one file.
 3. follow his path to make a same repo and commit.
 
+- add the dependence
+use yarn not npm, because in [this commit](https://github.com/shynome-netlify/rw-hn/commit/0d4d5b44cf84e7b2e6aec21dfb7b8489b8aa4d30), add fix the ```yarn.lock```. it shows a truth: package manager tool sometimes will make you in trouble.
+```bash
+yarn add node-fetch
+```
+
+- add hn api
+[first commit about add hn api](https://github.com/shynome-netlify/rw-hn/commit/2ab25f8e9a7381d4d34058ddce9af50119f0715d)， but fixed some type error in [this commit](https://github.com/shynome-netlify/rw-hn/commit/4679089dee7eb4f7b9e68576ff5fced0f8691490) , so I use the second commit files
+``` bash
+api/src/graphql/hn.sdl.ts
+api/src/services/hn/api.ts
+api/src/services/hn/hn.ts
+api/src/services/hn/hn.test.ts
+```
 
 
 
