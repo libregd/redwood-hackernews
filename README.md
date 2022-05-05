@@ -98,3 +98,4 @@ yarn rw g component Item
 yarn rw g layout HackerNews
 yarn rw g cell SortsNav
 ```
+### add api docs link
