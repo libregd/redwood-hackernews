@@ -92,4 +92,9 @@ yarn rw g component Item
  yarn rw g page Item
  yarn rw g cell ItemDetail
 ```
-
+### add hackernews layout
+[fuck copy the commit](https://github.com/shynome-netlify/rw-hn/commit/437333869d1f41810863d68a0f1dfe6c733a0350)
+```bash
+yarn rw g layout HackerNews
+yarn rw g cell SortsNav
+```
