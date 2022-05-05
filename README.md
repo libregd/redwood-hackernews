@@ -41,7 +41,7 @@ my plan is copy the teacher's work [shynome-rw-hn](https://github.com/shynome-ne
 - add the dependence
 use yarn not npm, because in [this commit](https://github.com/shynome-netlify/rw-hn/commit/0d4d5b44cf84e7b2e6aec21dfb7b8489b8aa4d30), add fix the ```yarn.lock```. it shows a truth: package manager tool sometimes will make you in trouble.
 ```bash
-yarn add node-fetch
+yarn add node-fetch@npm:2
 ```
 ***
 ### add hn api
@@ -98,4 +98,7 @@ yarn rw g component Item
 yarn rw g layout HackerNews
 yarn rw g cell SortsNav
 ```
-### add api docs link
+### setup netlify deploy
+```bash
+yarn rw setup deploy netlify
+```
