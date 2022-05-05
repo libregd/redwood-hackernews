@@ -79,13 +79,17 @@ add homepage and items component, and modify file, in [commit](https://github.co
 yarn rw g page home /
 yarn rw g cell Items
 ```
-### add ItemCell 
+### add ItemCell
 in [add ItemCell commit](https://github.com/shynome-netlify/rw-hn/commit/4f116575b727ca6a617c55449bd7fc49c8657e0c)
 ``` bash
 yarn rw g cell Item
 yarn rw g component Item
 ```
+### add item detail page
+[ cpoy commit](https://github.com/shynome-netlify/rw-hn/commit/d9c363d72e6a67de11a0fff2b11988139df699bf)
 
-
-
+```bash
+ yarn rw g page Item
+ yarn rw g cell ItemDetail
+```
 
