@@ -73,10 +73,19 @@ only comment two lines out. just like cut the connect to original db and banned 
 ```bash
 api/src/functions/graphql.ts
 ```
-### add homepage
-add homepage and items component, in [commit](https://github.com/shynome-netlify/rw-hn/commit/da342520a18ba3943f0b4844a7e9654782ac4dfb) didn't find the ```Routes.ts```
+### add homepage and ItemsCell
+add homepage and items component, and modify file, in [commit](https://github.com/shynome-netlify/rw-hn/commit/da342520a18ba3943f0b4844a7e9654782ac4dfb) didn't find the ```Routes.ts```, but I keep it.
 ``` bash
 yarn rw g page home /
 yarn rw g cell Items
 ```
+### add ItemCell 
+in [add ItemCell commit](https://github.com/shynome-netlify/rw-hn/commit/4f116575b727ca6a617c55449bd7fc49c8657e0c)
+``` bash
+yarn rw g cell Item
+yarn rw g component Item
+```
+
+
+
 
