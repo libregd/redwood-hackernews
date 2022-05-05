@@ -34,7 +34,7 @@ in fact , I finished the tutorial[Using a Third Party API](https://redwoodjs.com
 
 my plan is copy the teacher's work [shynome-rw-hn](https://github.com/shynome-netlify/rw-hn), but how to do it can really learn well from that process?
 
-1. I looking the commit , commit will show his intent to plan.
+1. I looking [his commit](https://github.com/shynome-netlify/rw-hn/commits/master) , commit will show his intent to plan.
 2. compare the modify about one file.
 3. follow his path to make a same repo and commit.
 
@@ -43,8 +43,8 @@ use yarn not npm, because in [this commit](https://github.com/shynome-netlify/rw
 ```bash
 yarn add node-fetch
 ```
-
-- add hn api
+***
+### add hn api
 [first commit about add hn api](https://github.com/shynome-netlify/rw-hn/commit/2ab25f8e9a7381d4d34058ddce9af50119f0715d)， but fixed some type error in [this commit](https://github.com/shynome-netlify/rw-hn/commit/4679089dee7eb4f7b9e68576ff5fced0f8691490) , so I use the second commit files
 ``` bash
 api/src/graphql/hn.sdl.ts
@@ -53,15 +53,25 @@ api/src/services/hn/hn.ts
 api/src/services/hn/hn.test.ts
 ```
 this part have many question.
-> [enum](https://www.typescriptlang.org/docs/handbook/enums.html)
-> [graphql-schema](https://www.apollographql.com/docs/apollo-server/schema/schema/)
-> [typescript tutorials](https://www.tutorialsteacher.com/typescript)
-> []()
+|file|what|why|
+|--|--|--|
+|```hn.sdl.ts```|[what is enum](https://www.typescriptlang.org/docs/handbook/enums.html)|why ```kids: [Int]``` use ```[Int]```, but```parts: [String]``` ?|
+||[variable type: DateTime](https://www.graphql-scalars.dev/docs/scalars/date-time)|why ```type Query``` like this?|
+|```hn.ts```|what is [Promise<Item[]>](https://rexdainiel.gitbooks.io/typescript/content/docs/promise.html)| why this file so hard to understand?|
 
-- add useless model for test
+1. [graphql-schema](https://www.apollographql.com/docs/apollo-server/schema/schema/)
+2. [typescript tutorials](https://www.tutorialsteacher.com/typescript)
+
+### add useless model for test
 even I didn't know how to use test ,but useless means no harmful.
 ``` bash
 api/db/schema.prisma
+```
+
+### remove db deps
+only comment two lines out. just like cut the connect to original db and banned own   sentence that is throws this exception when it encounters an error.
+```bash
+api/src/functions/graphql.ts
 ```
 
 
