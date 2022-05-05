@@ -52,6 +52,16 @@ api/src/services/hn/api.ts
 api/src/services/hn/hn.ts
 api/src/services/hn/hn.test.ts
 ```
+this part have many question.
+> [enum](https://www.typescriptlang.org/docs/handbook/enums.html)
+> [graphql-schema](https://www.apollographql.com/docs/apollo-server/schema/schema/)
+> [typescript tutorials](https://www.tutorialsteacher.com/typescript)
+> []()
 
+- add useless model for test
+even I didn't know how to use test ,but useless means no harmful.
+``` bash
+api/db/schema.prisma
+```
 
 
